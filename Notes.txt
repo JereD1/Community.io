@@ -1,0 +1,122 @@
+$=comment
+
+Complex 
+
+Display: Block takes 100% of the width and starts on a new line
+e.g <p> <div>
+
+inline: Doesn't allow you to set a width or height for the element
+e.g <img> <span>
+
+position
+
+Static(default): Follows normal flow of the page 
+
+Relative: Follows normal flow of the page
+Lets you position using top, left, bottom, right
+
+Absolute: Does not follow the normal flow of the page 
+Lets you postion with top, left, bottom, right
+position is based off closet 'position:relative'
+
+CSS Position
+Fixed: sticks element to a permanent locaton on the page
+let's you use top, left, bottom, right
+
+sticky
+sticks element to a permanent location on the page once it hits a threshold
+    
+
+Media Queries
+Use to make web page responsive
+
+@media (max width: 576px){
+}
+
+Media Queries
+576px - Mobile phones
+768px - Tablets
+992px - Desktops
+1200px - Large Desktops
+
+Extras (Pesudo selectors)
+before 
+after
+hover
+visited
+
+Animation: @keyframes {
+0% {
+	transform: translateY(0)
+}
+100% {
+	transform: translateY(10px);
+}
+
+			}
+$So now target the element you want to animate
+button {
+	animation: float 200ms($time) infinite($can specify the number of tiimes u want the animation to run) alternate-reverse
+	transition:all 200ms($time) 
+}
+
+What is BEM
+BEM ( Block-Element-Modifier) is a naming convention used for css classes to make them easier to read and understand.
+
+B [block] is the block component
+E[element] is dependig on the block components
+M[modifier] is used to change the style of the block
+
+
+CSS Layout
+
+Default Layout - display block
+display: flex; - puts objects side by side. This unlocks flex-direction, align-items, justify-content
+
+flex-direction: by default flex - direction is row and this can be change by isug flex-dirction: column;
+
+justify -content: flex-end, center, space-around, space-between
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+Keeps your object at the middle of your web page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
